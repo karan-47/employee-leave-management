@@ -1,0 +1,66 @@
+.carousel .slide {
+    background: none;
+  }
+  
+  .carousel .slide > div {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    /* height: 100%; */
+    padding: 20px;
+  }
+  
+  .approved {
+    background-color: #4caf50 !important; 
+    color: white;
+  }
+  
+  .pending {
+    background-color: #ffb74d !important; 
+    color: white;
+  }
+  .denied {
+    background-color: #e57373 !important; 
+    color: white;
+  }
+  .hovered-approved {
+    background-color: #66bb6a !important; /* Lighter green for hovered approved */
+    color: white;
+  }
+  
+  .hovered-pending {
+    background-color: #ffb74d !important; /* Lighter orange for hovered pending */
+    color: white;
+  }
+  
+  .react-calendar {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.125em;
+  }
+  
+  .react-calendar__tile {
+    max-width: initial !important;
+  }
+  
+  .MuiTableContainer-root {
+    margin-top: 16px;
+  }
+  
+  .MuiTableCell-root {
+    white-space: nowrap;
+  }
+  
+  .request-list {
+    width: 100%;
+  }
+  
+  .request-list .MuiTableCell-root {
+    display: flex;
+    justify-content: space-between;
+  }
+  

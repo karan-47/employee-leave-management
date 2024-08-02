@@ -1,0 +1,87 @@
+.manager-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  /* height: 100vh; */
+}
+
+.dashboard {
+  text-align: center;
+  width: 100%;
+}
+
+.react-calendar {
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-button {
+  width: 150px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar__tile {
+  max-width: initial !important;
+}
+
+.table-container {
+  height: 400px;
+  overflow-y: auto;
+}
+
+/* Styles for request statuses */
+.request-approved {
+  background-color: #d4edda; /* Light green */
+  color: #155724; /* Dark green */
+}
+
+.request-pending {
+  background-color: #fff3cd; /* Light yellow */
+  color: #856404; /* Dark yellow */
+}
+
+.request-denied {
+  background-color: #f8d7da; /* Light red */
+  color: #721c24; /* Dark red */
+}
+
+/* Highlight the calendar tiles */
+.react-calendar__tile--approved {
+  background-color: #d4edda !important;
+  color: #155724 !important;
+}
+
+.react-calendar__tile--pending {
+  background-color: #fff3cd !important;
+  color: #856404 !important;
+}
+
+.react-calendar__tile--denied {
+  background-color: #f8d7da !important;
+  color: #721c24 !important;
+}

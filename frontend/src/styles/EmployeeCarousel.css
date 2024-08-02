@@ -1,0 +1,10 @@
+.react-calendar__tile--approved {
+    background-color: green !important;
+    color: white !important;
+  }
+  
+  .react-calendar__tile--pending {
+    background-color: orange !important;
+    color: white !important;
+  }
+  
